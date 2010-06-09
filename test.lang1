@@ -1,8 +1,0 @@
-['let' , [ minus , [ lambda , [ x,y] , 
-	['if' , [ '-' , x , y ] , 
-		[ '-' , x ,y ],
-		y ] 
-		] ] , 
-['let' , [ plus , [ lambda , [ x,y] , [ '+' , x ,y ] ] ],
-
-	[plus , 1 ,[minus , 3 ,4 ]] ]] . 
