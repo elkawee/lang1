@@ -1,0 +1,3 @@
+[ 'let' , [ twice , ['lambda' , [ f ]  , [ 'lambda', [ x] ,[ f , [f , x ]]] ] ] , 
+[ 'let' , [ power_2 , [ 'lambda' , [ x ]  , [ '*' , x ,x ] ] ] , 
+	[ [ twice , power_2 ]  , 2 ] ]]. 

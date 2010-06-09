@@ -1,0 +1,13 @@
+%testing closures 
+[ 'let' , [ f,
+[ 'let' , [ foo , [ 'lambda' , [ x ] , x ]], 
+[ 'let' , [ x , 5 ] , 
+[ 'let' , [ y , 3 ] , 
+  [ 'lambda' , [  ]  , ['-' , [foo,  x] , y ] ]]]]], 
+  [f  ]] . 
+
+
+
+
+
+
