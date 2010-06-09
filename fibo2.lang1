@@ -1,6 +1,0 @@
-['let' , [ fibo_r  , [ 'lambda' , [ x1 , x2 , k, n  , f ]  , 
-		[ f , x2 , [ '+' , x1 , x2] , [ '+' , k , 1 ] , n , f ]
-		]],
-	['let',  [ fibo , ['lambda' ,[n ], [fibo_r , 1, 2 , 3 , 4, fibo_r ] ]],
-		[fibo , 2] 
-	]] . 
