@@ -1,0 +1,20 @@
+From the erlang shell : run with 
+
+lang1:run ( filename )  // file from the current directory  , or 
+lang1:run ( expression ) 
+
+features : 
+	lambdas , closures , higher order functions 
+
+-> there is no parser , programs are erlang terms like 
+
+	['let' , [ x , 5 ],   <other expression>  ] . 
+
+	the final dot is required by the erlang evaluator 
+
+-> a program is a single expression and returns a single value 
+
+-> there are no useful error messages >_> 
+	both , forgotten colons and arity mismatches return the most cryptic error
+	message possible 
+
